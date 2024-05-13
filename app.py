@@ -20,3 +20,40 @@ print(salary)
 # Multiple Assignment
 
 a = b = c = 1
+print(a)
+print(b)
+print(c)
+
+d, e, f = 1, 2, "john"
+print(d)
+print(e)
+print(f)
+
+# Python variable Example
+# Write the variable-name on the left side of = and the value on the right side.
+num = 100
+str = "Hello"
+print(num)
+print(str)
+
+# Plus and concatenation operation on the variables
+
+x = 10
+y = 20
+print(x + y)
+
+str1 = "Hello"
+str2 = "World"
+print(str1 + " " + str2)
+
+
+"""
+Immutable data types in Python are:
+1. Numbers
+2. String
+3. Tuple
+Mutable data types in Python are:
+1. List
+2. Dictionaries
+3. Sets
+"""
