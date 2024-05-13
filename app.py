@@ -57,3 +57,76 @@ Mutable data types in Python are:
 2. Dictionaries
 3. Sets
 """
+
+
+# Numbers
+# Python supports four different numerical types:
+# int (signed integers)
+# long (long integers, they can also be represented in octal and hexadecimal)
+a = 100
+print(a, " : ", type(a))
+
+# float (floating point real values)
+b = 10.53
+print(b, " : ", type(b))
+
+# complex (complex numbers)
+c = 100 + 3j
+print(c, " : ", type(c))
+
+# String
+
+str1 = "Harsh is 19 years old."
+print(str1)
+
+str2 = "He likes Butterscotch Ice-cream."
+print(str1 + " " + str2)
+
+# List
+# List is an ordered sequence of some data written using square brackets ([]) and commas (,).
+# List is mutable.
+
+list1 = [10, 20, 30, 40, 50]
+print(list1)
+
+list2 = ["apple", "banana", "cherry"]
+print(list2)
+
+list3 = [10, "apple", 20, "banana"]
+print(list3)
+
+print(list3[1])
+print(list3[-2])
+
+# Tuple
+"""
+Tuple is another data type which is a sequence of data similar to list.
+But it is immutable.
+That means data in a tuple is write protected.
+Data in a tuple is written using parenthesis and commas.
+"""
+
+tuple1 = (10, 20, 30, 40, 50)
+print(tuple1)
+
+tuple2 = ("apple", "banana", "cherry")
+print(tuple2)
+
+tuple3 = (10, "apple", 20, "banana")
+print(tuple3)
+
+print(tuple3[1])
+
+# Dictionary
+"""
+Python Dictionary is an unordered sequence of data of key-value pair form.
+It is similar to the hash table type. Dictionaries are written within curly braces in the form key: value.
+"""
+
+dict1 = {1: "John", 2: "Bob", 3: "Alice"}
+print(dict1)
+
+dict2 = {"name": "John", "age": 25}
+print(dict2)
+
+print(dict2["name"])
