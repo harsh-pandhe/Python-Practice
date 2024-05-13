@@ -130,3 +130,178 @@ dict2 = {"name": "John", "age": 25}
 print(dict2)
 
 print(dict2["name"])
+
+# Basic Operators
+
+# Arithmetic Operators
+
+a = 10
+b = 20
+
+print(a + b) # Addition
+print(a - b) # Subtraction
+print(a * b) # Multiplication
+print(a / b) # Division
+print(a % b) # Modulus
+print(a ** b) # Exponentiation
+print(a // b) # Floor Division
+
+# Comparison Operators
+
+a = 10
+b = 20
+
+print(a == b) # Equal
+print(a != b) # Not equal
+print(a > b) # Greater than
+print(a < b) # Less than
+print(a >= b) # Greater than or equal to
+print(a <= b) # Less than or equal to
+
+# Logical Operators
+
+a = True
+b = False
+
+print(a and b) # Logical AND
+print(a or b) # Logical OR
+print(not a) # Logical NOT
+
+# Assignment Operators
+
+a = 10
+b = 20
+a += b # a = a + b
+print(a)
+
+a = 10
+b = 20
+a -= b # a = a - b
+print(a)
+
+a = 10
+b = 20
+a *= b # a = a * b
+print(a)
+
+a = 10
+b = 20
+a /= b # a = a / b
+print(a)
+
+a = 10
+b = 20
+a %= b # a = a % b
+print(a)
+
+a = 10
+b = 20
+a **= b # a = a ** b
+print(a)
+
+a = 10
+b = 20
+a //= b # a = a // b
+print(a)
+
+# Bitwise Operators
+
+a = 10
+b = 20
+
+print(a & b) # Bitwise AND
+
+print(a | b) # Bitwise OR
+
+print(a ^ b) # Bitwise XOR
+
+print(~a) # Bitwise NOT
+
+print(a << 2) # Bitwise Left Shift
+
+print(a >> 2) # Bitwise Right Shift
+
+# Membership Operators
+
+a = [1, 2, 3, 4, 5]
+
+print(1 in a) # in operator
+
+print(1 not in a) # not in operator
+
+# Identity Operators
+
+a = 10
+b = 10
+
+print(a is b) # is operator
+
+print(a is not b) # is not operator
+
+# Control Statements
+
+# If Statement
+
+a = 10
+
+if a > 0:
+    print("Positive Number")
+
+# If-else Statement
+
+a = -10
+
+if a > 0:
+    print("Positive Number")
+else:
+    print("Negative Number")
+
+# If-elif-else Statement
+
+a = 0
+
+if a > 0:
+    print("Positive Number")
+elif a < 0:
+    print("Negative Number")
+else:
+    print("Zero")
+
+# Examples
+
+# Check if a number is even
+num = int(input("Enter a number: "))
+if num % 2 == 0:
+    print("Even Number")
+
+# Print the largest number
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+
+if a > b and a > c:
+    print(a)
+elif b > a and b > c:
+    print(b)
+else:
+    print(c)
+
+# Election Eligibility
+age = int(input("Enter your age: "))
+if age >= 18:
+    print("You are eligible to vote.")
+else:
+    print("You are not eligible to vote.")
+
+# Grade Calculation
+marks = int(input("Enter your marks: "))
+if marks >= 90:
+    print("Grade A")
+elif marks >= 80:
+    print("Grade B")
+elif marks >= 70:
+    print("Grade C")
+elif marks >= 60:
+    print("Grade D")
+else:
+    print("Grade F")
