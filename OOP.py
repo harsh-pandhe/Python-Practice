@@ -126,7 +126,7 @@ class circle:
         return
 
     def getcircumference(self):
-        print(2 * 3.14 * self.radius)
+        print(2.0 * 3.14 * self.radius)
         return
 
 
