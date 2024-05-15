@@ -173,3 +173,8 @@ print(arr)
 arr = numpy.array([[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]]])
 print(arr)
 
+print(numpy.__version__)
+print(arr.size)
+print(arr.shape)
+print(arr.ndim)
+print(type(arr))

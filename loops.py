@@ -49,3 +49,10 @@ for i in range(10):
         pass
         print("After Pass")
     print(i)
+
+a = 2
+for v in range(1, 6, 2):
+    for q in range(v):
+        print(a, end=" ")
+        a += 2
+    print()

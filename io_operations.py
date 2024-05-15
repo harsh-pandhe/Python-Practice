@@ -55,7 +55,8 @@ except:
     print("Exception")
 
 try:
-    print(k)
+    # print(k)
+    print("Tried")
 except NameError:
     print("NameError")
 except:
