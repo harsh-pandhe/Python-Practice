@@ -1,25 +1,10 @@
-class Vehicle:
-    def __init__(self, make, model):
-        self.make = make
-        self.model = model
+def sum_of_digits(number):
+    number_str = str(number)
+    digit_sum = 0
+    for digit in number_str:
+        digit_sum += int(digit)
+    return digit_sum
 
-    def display_info(self):
-        print(f"Make: {self.make}")
-        print(f"Model: {self.model}")
-
-
-class Car(Vehicle):
-    def __init__(self, make, model, year):
-        super().__init__(make, model)
-        self.year = year
-
-    def display_info(self):
-        super().display_info()
-        print(f"Year: {self.year}")
-
-
-vehicle1 = Vehicle("Tesla", "Model S")
-car1 = Car("Honda", "Civic", 2023)
-vehicle1.display_info()
-print("---")
-car1.display_info()
+number = int(input("Enter a number: "))
+result = sum_of_digits(number)
+print("Sum of digits:", result)
